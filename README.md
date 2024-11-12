@@ -11,7 +11,7 @@ Delete a book record by specifying its title.
 Save any updates to a file (theBooksList.txt) for future use.
 The program maintains book records in a list and reads from/writes to an external file for persistent storage.
 
-Code Walkthrough
+Steps involved to run the program:
 1. Initialization and File Handling
 The program starts by trying to open theBooksList.txt, where existing book records are stored:
 If the file exists, each line is read and split by commas to populate booksList.
