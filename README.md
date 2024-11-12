@@ -19,13 +19,14 @@ If the file is not found, it alerts the user and initializes booksList as an emp
 
 2. Main Menu and User Input
 The program runs a loop with the following menu options:
+
 i. Add a Book: Prompts the user to enter details about the book (title, author, number of pages, and price) and appends this information as a list to booksList.
 ii. Details of a book: Prompts the user to enter a book title keyword, searches for it within booksList, and prints any matches (case-insensitively). If no match is found, a message is displayed.
 iii. Display books: Displays all books in booksList in a formatted manner, showing the book title, author, number of pages, and price.
 iv. Delete a book: Prompts the user to enter a book title, finds the exact match (case-insensitively), and removes the corresponding entry from booksList. If no match is found, a message is shown.
 v. Quit: Exits the program after saving the updated booksList back to theBooksList.txt.
 
-3. Saving Book Data
+4. Saving Book Data
 When the user chooses to quit, the program writes each book record from booksList back to theBooksList.txt, saving any changes made during the session.
 
 Example Run
